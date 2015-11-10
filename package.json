@@ -1,0 +1,25 @@
+{
+  "name": "timeranges",
+  "version": "1.0.0",
+  "description": "Convenience time ranges for NPM",
+  "main": "dist/timeranges.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StoneCypher/timeranges.git"
+  },
+  "author": "John Haugeland <stonecypher@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/StoneCypher/timeranges/issues"
+  },
+  "homepage": "https://github.com/StoneCypher/timeranges#readme",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.1.2",
+    "del": "^2.0.2",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^6.1.0"
+  }
+}
