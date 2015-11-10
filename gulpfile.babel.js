@@ -9,7 +9,7 @@ var gulp  = require('gulp'),
 
 
 gulp.task('clean', function(cb) {
-  return del('./dist', cb);
+  return del('./lib', cb);
 });
 
 
@@ -17,7 +17,7 @@ gulp.task('clean', function(cb) {
 gulp.task('make-directories', ['clean'], function() {
 
   try {
-    fs.mkdirSync('./dist');
+    fs.mkdirSync('./lib');
   } catch(e) {
     if (e.code !== 'EEXIST') {
       console.log('caught ' + JSON.stringify(e) + ' while making dirs');
@@ -34,7 +34,7 @@ gulp.task('babel', ['make-directories'], function() {
 
   return gulp.src('./src/timeranges.js')
     .pipe(babel({"presets": ["es2015"]}))
-    .pipe(gulp.dest('./dist'));
+    .pipe(gulp.dest('./lib'));
 
 });
 
