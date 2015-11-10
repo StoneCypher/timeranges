@@ -27,3 +27,14 @@ export const yearly          = one_year;
 
 export const one_workday     = one_hour * 8;
 export const workdaily       = one_workday;
+
+export const rates_y_to_ms   = [
+  { rate: yearly,     short_label: 'yr' },
+  { rate: monthly_30, short_label: 'mo' },
+  { rate: weekly,     short_label: 'wk' },
+  { rate: daily,      short_label: 'd'  },
+  { rate: hourly,     short_label: 'h'  },
+  { rate: minutely,   short_label: 'm'  },
+  { rate: one_sec,    short_label: 's'  },
+  { rate: one_ms,     short_label: 'ms' }
+];

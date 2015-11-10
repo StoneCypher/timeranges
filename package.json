@@ -1,6 +1,6 @@
 {
   "name": "timeranges",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Convenience time ranges for NPM",
   "main": "dist/timeranges.js",
   "scripts": {
